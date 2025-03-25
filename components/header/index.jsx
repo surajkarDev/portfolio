@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Header = () => {
     const useLink = [
-        { link: "/home", text: "Home" },
-        { link: "/about", text: "About" },
+        { link: "/", text: "Home" },
+        { link: "/pages/about", text: "About" },
         { link: "/services", text: "Services" },
         { link: "/portfolio", text: "Portfolio" },
         { link: "/projects", text: "Projects" },
