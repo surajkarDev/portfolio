@@ -5,11 +5,6 @@ import "./globals.css";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
@@ -24,7 +19,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className="h-full">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}>
+      <body className={`antialiased h-full`}>
         <div className="container-fluid mx-auto h-full">
           <div className="flex h-[calc(100vh-65px)]">
             <div className="w-[100px] bg-[#f7f6f1] border-r border-black text-black shadow-md">
