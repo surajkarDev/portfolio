@@ -27,10 +27,10 @@ export default function RootLayout({ children }) {
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}>
         <div className="container-fluid mx-auto h-full">
           <div className="flex h-[calc(100vh-65px)]">
-            <div className="w-1/12 bg-[#f7f6f1] border-r border-black text-black p-6 shadow-md">
+            <div className="w-[100px] bg-[#f7f6f1] border-r border-black text-black shadow-md">
               <Footer></Footer>
             </div>
-            <div className="w-11/12 bg-[#f7f6f1] text-black p-6 shadow-md">
+            <div className="w-[calc(100%-100px)] bg-[#f7f6f1] text-black p-6 shadow-md">
               {children}
             </div>
           </div>
